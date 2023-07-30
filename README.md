@@ -41,6 +41,9 @@ tweet.get_replies()
 
 **ツイート検索**
 
+ユーザー検索などの方法はこちらのサイトを参考にしてください<br>
+https://support.yahoo-net.jp/SccRealtime/s/article/H000011629
+
 ```py
 from realtime_twitter_api import Search
 
