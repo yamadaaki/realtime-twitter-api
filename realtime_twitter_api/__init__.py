@@ -94,7 +94,7 @@ class Tweet:
         self.mentions = [mention['id'] for mention in tweet_data['mentions']]
         self.created_at = tweet_data['createdAt']
         self.reply_count = tweet_data['replyCount']
-        self.rt_count = tweet_data['replyCount']
+        self.rt_count = tweet_data['rtCount']
         self.likes_count = tweet_data['likesCount']
         self.user_id = tweet_data['userId']
         self.user_name = tweet_data['name']
